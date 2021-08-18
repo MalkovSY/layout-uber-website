@@ -1,9 +1,11 @@
+/* line 4, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
 
-.title-small{
+/* line 8, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.title-small {
   width: 115px;
   height: 25px;
   font-weight: normal;
@@ -17,37 +19,56 @@ body {
   text-align: center;
 }
 
-.title{
+/* line 21, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.title {
   font-weight: bold;
   font-size: 38px;
   line-height: 48px;
   text-transform: uppercase;
   color: #222222;
   margin: 0;
+  text-align: center;
+  margin-top: 33px;
 }
 
-.header{
+/* line 31, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.title-descr {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+/* line 40, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.header {
   height: 50px;
   background-color: #212121;
 }
 
-.menu__list{
+/* line 44, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.menu__list {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 15px 70px;
 }
 
-.menu__list-item{
+/* line 50, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.menu__list-item {
   list-style: none;
   padding-left: 45px;
 }
 
-.menu__list-item:first-child{
+/* line 54, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.menu__list-item:first-child {
   padding: 0;
 }
 
-.menu__list-link{
+/* line 57, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.menu__list-link {
   text-decoration: none;
   font-weight: 300;
   font-size: 15px;
@@ -55,35 +76,41 @@ body {
   color: #FFFFFF;
 }
 
-.menu__list li + li{
+/* line 64, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.menu__list li + li {
   border-left: 2px dotted #fff;
 }
 
-.about{
-  height: 800px;
-  background-image: url('../img/bg/uber_bg.jpg');
+/* line 67, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about {
+  min-height: 800px;
+  background-image: url("../img/bg/uber_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.about__header{
+/* line 74, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header {
   height: 90px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.about__header-content{
+/* line 78, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-content {
   display: flex;
   padding: 0 100px;
   align-items: center;
 }
 
-.about__header-logo{
+/* line 83, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-logo {
   margin-top: 18px;
   margin-right: 400px;
 }
 
-.about__header-logo-descr{
+/* line 87, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-logo-descr {
   font-weight: 200;
   margin-top: 6px;
   font-size: 13px;
@@ -91,12 +118,14 @@ body {
   opacity: 0.6;
 }
 
-.about__header-contact{
+/* line 94, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-contact {
   margin-top: 10px;
   text-align: right;
 }
 
-.about__header-contact-text{
+/* line 98, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-contact-text {
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
@@ -105,7 +134,8 @@ body {
   padding-bottom: 5px;
 }
 
-.about__header-contact-phone{
+/* line 106, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-contact-phone {
   text-decoration: none;
   font-weight: 400;
   font-size: 22px;
@@ -113,7 +143,8 @@ body {
   color: #FFFFFF;
 }
 
-.about__header-content .about__header-call{
+/* line 113, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__header-content .about__header-call {
   width: 180px;
   height: 46px;
   padding: 0;
@@ -129,18 +160,21 @@ body {
   border-width: 1px;
 }
 
-.about__content{
+/* line 128, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__content {
   margin-top: 55px;
   text-align: center;
 }
 
-.about__content-wrapper{
+/* line 132, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.about__content-title{
+/* line 137, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__content-title {
   font-weight: 900;
   font-size: 60px;
   line-height: 24px;
@@ -148,7 +182,8 @@ body {
   color: #FFFFFF;
 }
 
-.about__content-title-text{
+/* line 144, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__content-title-text {
   font-weight: 900;
   font-size: 36px;
   line-height: 24px;
@@ -157,7 +192,8 @@ body {
   margin-top: 22px;
 }
 
-.about__content-text{
+/* line 152, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__content-text {
   max-width: 985px;
   margin-top: 25px;
   font-weight: normal;
@@ -166,7 +202,8 @@ body {
   color: #FFFFFF;
 }
 
-.about__content-btn{
+/* line 160, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.about__content-btn {
   width: 260px;
   height: 65px;
   margin-top: 115px;
@@ -182,16 +219,19 @@ body {
   border-width: 1px;
 }
 
-.benefits{
+/* line 175, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits {
   padding: 20px 0 70px;
 }
 
-.benefits__title{
+/* line 178, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits__title {
   margin: 33px 0 16px;
   text-align: center;
 }
 
-.benefits__content{
+/* line 182, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits__content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -199,10 +239,12 @@ body {
   padding-left: 23px;
 }
 
-.benefits__content-item{
+/* line 189, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits__content-item {
   display: flex;
 }
 
+/* line 192, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
 .benefits__content-item-icon {
   display: flex;
   justify-content: center;
@@ -214,21 +256,146 @@ body {
   margin-right: 25px;
 }
 
-.benefits__content-item-text{
+/* line 202, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits__content-item-text {
   max-width: 370px;
-  /* margin-right: 70px; */
   font-weight: normal;
   font-size: 17px;
   line-height: 21px;
 }
 
-.benefits__content-item-text-title{
+/* line 208, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits__content-item-text-title {
   color: #1EACC7;
   margin-bottom: 10px;
 }
 
-.benefits__content-item-text-text{
+/* line 212, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.benefits__content-item-text-text {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 25px;
 }
+
+/* line 217, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile {
+  min-height: 865px;
+  padding: 48px 0 80px;
+  background-image: url("../img/bg/mobile_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 225, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+/* line 236, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item_1 {
+  background-image: url("../img/bg/mobile-app_bg/1.jpg");
+}
+
+/* line 238, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item_2 {
+  background-image: url("../img/bg/mobile-app_bg/2.jpg");
+}
+
+/* line 240, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item_3 {
+  background-image: url("../img/bg/mobile-app_bg/3.jpg");
+}
+
+/* line 242, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item_4 {
+  background-image: url("../img/bg/mobile-app_bg/4.jpg");
+}
+
+/* line 244, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item_5 {
+  background-image: url("../img/bg/mobile-app_bg/5.jpg");
+}
+
+/* line 246, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item_6 {
+  background-image: url("../img/bg/mobile-app_bg/6.jpg");
+}
+
+/* line 248, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item-text {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 254, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item-plus {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 34px;
+}
+
+/* line 264, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.mobile__content-item-plus:hover {
+  border: 2px solid #1EACC7;
+}
+
+/* line 267, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.possibilities {
+  min-height: 900px;
+  padding: 60px 0 138px;
+  background-color: #070716;
+  background-image: url("../img/bg/mobile_bg.jpg");
+  background-size: 100% 44%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* line 275, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.possibilities__title-small {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* line 278, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.possibilities__title {
+  color: #fff;
+}
+
+/* line 280, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.possibilities__title-descr {
+  color: #fff;
+  margin-bottom: 55px;
+}
+
+/* line 283, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.possibilities__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 287, ../work/htmlCss/ivan/two/bootstrap/src/sass/style.sass */
+.possibilities__descr {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
