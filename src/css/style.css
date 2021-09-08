@@ -162,7 +162,7 @@ body {
 }
 
 /* line 116, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
-.about__header-content .about__header-call {
+.about__header-call {
   width: 180px;
   height: 46px;
   padding: 0;
@@ -179,7 +179,7 @@ body {
 }
 
 /* line 2, ../work/htmlCss/ivan/two/bootstrap/src/sass/_mixins.sass */
-.about__header-content .about__header-call:hover {
+.about__header-call:hover {
   background-image: none;
   background-color: #1EACC7;
 }
@@ -821,99 +821,130 @@ body {
   }
   /* line 84, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-logo {
-    margin-right: 40px;
+    margin-right: 85px;
   }
   /* line 86, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .about__header-logo-img {
+    width: 250px;
+  }
+  /* line 88, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .about__header-call {
+    width: 170px;
+  }
+  /* line 90, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-content {
     padding: 0 20px;
   }
-  /* line 89, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 93, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-contact-text {
     font-size: 11px;
   }
-  /* line 91, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 95, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-contact-phone {
     font-size: 15px;
   }
-  /* line 94, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 98, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-title {
     font-size: 35px;
   }
-  /* line 96, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 100, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-title-text {
     font-size: 25px;
   }
-  /* line 98, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 102, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-text {
     font-size: 15px;
   }
-  /* line 100, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 104, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-btn {
     margin-top: 80px;
   }
-  /* line 103, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 106, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .benefits {
+    padding: 20px 0 40px;
+  }
+  /* line 108, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__title {
     margin: 20px 0 12px;
     font-size: 30px;
   }
-  /* line 107, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 112, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__content-item-text {
     font-size: 15px;
     max-width: 200px;
   }
-  /* line 110, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 115, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__content-item-text-text {
     font-size: 13px;
   }
-  /* line 112, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 117, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__content-item-icon {
     width: 90px;
     height: 90px;
   }
-  /* line 115, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 120, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile {
     min-height: 800px;
   }
-  /* line 117, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 122, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile__title {
     font-size: 35px;
   }
-  /* line 119, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 124, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile__content-item {
     width: 230px;
     height: 230px;
   }
-  /* line 122, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 127, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile__content-item-text {
     font-size: 16px;
   }
-  /* line 125, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 129, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .possibilities {
+    min-height: 700px;
+    padding: 60px 0 70px;
+  }
+  /* line 132, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .possibilities__title {
     font-size: 30px;
   }
-  /* line 128, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 134, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .possibilities__car-img {
+    max-width: 600px;
+  }
+  /* line 136, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .require {
+    padding: 30px 0 60px;
+  }
+  /* line 139, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__social {
     margin-right: 5px;
   }
-  /* line 130, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 141, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__social-links {
     margin-right: 4px;
+    width: 25px;
+    height: 25px;
   }
-  /* line 132, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 145, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__app-link {
     margin-right: 5px;
   }
-  /* line 134, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 147, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__app-link-img {
-    width: 250px;
+    width: 150px;
   }
-  /* line 136, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 149, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-main {
     font-size: 12px;
   }
-  /* line 138, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 151, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-other {
     font-size: 10px;
+  }
+  /* line 153, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .footer__menu-other li {
+    padding: 10px 10px;
   }
 }
 
