@@ -593,9 +593,10 @@ body {
   height: 35px;
   border-radius: 50%;
   background-color: #070716;
+  margin-right: 5px;
 }
 
-/* line 406, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 407, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu {
   text-align: center;
   margin-left: 150px;
@@ -603,7 +604,7 @@ body {
   position: relative;
 }
 
-/* line 411, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 412, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu:before {
   content: '';
   position: absolute;
@@ -615,7 +616,7 @@ body {
   background-color: #1FBAD6;
 }
 
-/* line 420, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 421, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-main {
   display: flex;
   justify-content: center;
@@ -628,18 +629,18 @@ body {
   text-decoration: none;
 }
 
-/* line 430, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 431, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-main a {
   text-decoration: none;
   color: #070716;
 }
 
-/* line 433, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 434, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-main li {
   padding: 10px 25px;
 }
 
-/* line 435, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 436, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-other {
   display: flex;
   justify-content: center;
@@ -651,18 +652,18 @@ body {
   margin: 0;
 }
 
-/* line 444, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 445, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-other a {
   text-decoration: none;
   color: #999999;
 }
 
-/* line 447, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 448, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-other li {
   padding: 10px 15px;
 }
 
-/* line 449, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 450, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__menu-link {
   font-size: 11px;
   text-decoration: none;
@@ -670,7 +671,7 @@ body {
   color: #1FBAD6;
 }
 
-/* line 454, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
+/* line 455, ../work/htmlCss/ivan/two/bootstrap/src/sass/_general.sass */
 .footer__app-link {
   display: flex;
   align-items: center;
