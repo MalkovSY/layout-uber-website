@@ -168,6 +168,7 @@
     transform: translateY(-50%)
     cursor: pointer
     width: 26px
+    height: 12px
     span
       display: block
       width: 100%
@@ -179,11 +180,11 @@
       span
         margin-bottom: -2px
         &:nth-child(1)
-          transform: rotate(-45deg)
+          transform: translateY(5px) rotate(-45deg)
         &:nth-child(2)
           display: none
         &:nth-child(3)
-          transform: rotate(45deg)
+          transform: translateY(5px) rotate(45deg)
           
 
   .menu__list
@@ -360,3 +361,10 @@
         bottom: -30px
         left: 50%
         transform: translateX(-50%)
+
+@media (max-width: 500px)
+  .menu__list
+    width: 70%
+@media (max-width: 390px)
+  .menu__list
+    width: 85%

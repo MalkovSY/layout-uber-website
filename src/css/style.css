@@ -971,8 +971,9 @@ body {
     transform: translateY(-50%);
     cursor: pointer;
     width: 26px;
+    height: 12px;
   }
-  /* line 171, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 172, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .burger span {
     display: block;
     width: 100%;
@@ -981,23 +982,23 @@ body {
     background-color: #fff;
     transition: all .5s;
   }
-  /* line 179, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 180, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .burger_active span {
     margin-bottom: -2px;
   }
-  /* line 181, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 182, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .burger_active span:nth-child(1) {
-    transform: rotate(-45deg);
+    transform: translateY(5px) rotate(-45deg);
   }
-  /* line 183, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 184, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .burger_active span:nth-child(2) {
     display: none;
   }
-  /* line 185, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 186, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .burger_active span:nth-child(3) {
-    transform: rotate(45deg);
+    transform: translateY(5px) rotate(45deg);
   }
-  /* line 189, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 190, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .menu__list {
     position: fixed;
     flex-direction: column;
@@ -1010,68 +1011,68 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     transition: all .7s;
   }
-  /* line 200, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 201, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .menu__list_active {
     left: 0;
   }
-  /* line 202, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 203, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .menu__list li + li {
     border: none;
   }
-  /* line 204, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 205, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .menu__list-item {
     padding: 20px 3px;
   }
-  /* line 206, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 207, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .menu__list-item:first-child {
     padding: 20px 5px;
   }
-  /* line 208, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 209, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .menu__list-link {
     font-size: 20px;
     padding: 20px 0px;
   }
-  /* line 211, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 212, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about {
     min-height: 430px;
   }
-  /* line 213, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 214, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header {
     height: 62px;
     position: relative;
   }
-  /* line 216, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 217, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-content {
     display: flex;
     justify-content: center;
   }
-  /* line 219, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 220, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-logo {
     margin-top: 0;
   }
-  /* line 221, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 222, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-logo-img {
     width: 130px;
     position: absolute;
     left: 5%;
     top: 38%;
   }
-  /* line 226, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 227, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-logo-descr {
     display: none;
   }
-  /* line 228, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 229, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-contact-text {
     display: none;
   }
-  /* line 230, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 231, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-contact-phone {
     font-size: 12px;
     position: absolute;
     top: 20%;
     right: 15%;
   }
-  /* line 235, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 236, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__header-call {
     margin: 0;
     width: 110px;
@@ -1081,22 +1082,22 @@ body {
     top: 50%;
     right: 12%;
   }
-  /* line 244, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 245, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-title {
     font-size: 30px;
     line-height: 35px;
   }
-  /* line 247, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 248, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-title-text {
     margin-top: 5px;
     font-size: 20px;
     line-height: 25px;
   }
-  /* line 251, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 252, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-text {
     display: none;
   }
-  /* line 253, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 254, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .about__content-btn {
     margin-top: 70px;
     font-size: 16px;
@@ -1104,170 +1105,184 @@ body {
     width: 210px;
     height: 50px;
   }
-  /* line 260, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 261, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__title {
     font-size: 16px;
     line-height: 16px;
   }
-  /* line 263, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 264, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__content {
     padding-right: 16px;
     padding-left: 16px;
   }
-  /* line 266, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 267, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__content-item-text-title {
     margin-bottom: 0;
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 270, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 271, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .benefits__content-item-text-text {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 273, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 274, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .title {
     margin-top: 16px;
   }
-  /* line 276, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 277, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .title-descr {
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 27px;
   }
-  /* line 280, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 281, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile {
     padding: 25px 0 40px;
   }
-  /* line 282, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 283, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile__title {
     font-size: 16px;
     line-height: 16px;
   }
-  /* line 285, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 286, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile__content-item {
     width: 290px;
     height: 254px;
   }
-  /* line 288, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 289, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .mobile__content-item-text {
     font-size: 18px;
   }
-  /* line 290, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 291, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .possibilities {
     background-image: none;
     min-height: 200px;
     padding: 25px 0 30px;
   }
-  /* line 294, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 295, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .possibilities__title {
     display: none;
   }
-  /* line 296, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 297, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .possibilities__title-descr {
     display: none;
   }
-  /* line 298, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 299, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .possibilities__car-img {
     max-width: 300px;
     margin-top: 20px;
   }
-  /* line 301, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 302, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .possibilities__descr {
     color: #fff;
     font-size: 17px;
     line-height: 24px;
     max-width: 270px;
   }
-  /* line 306, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 307, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .require {
     padding: 20px 0 30px;
   }
-  /* line 308, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 309, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .require__item {
     margin: 30px 0 0px;
   }
-  /* line 310, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 311, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .require__item-list {
     padding-left: 30px;
     font-size: 16px;
     line-height: 24px;
   }
-  /* line 314, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 315, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .require__item-list li {
     margin-bottom: 0;
   }
-  /* line 316, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 317, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .require__item-descr {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 0;
   }
-  /* line 320, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 321, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .citys {
     min-height: 300px;
     padding: 24px 0 20px;
   }
-  /* line 323, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 324, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .citys__title {
     font-size: 16px;
     line-height: 16px;
     margin-bottom: 11px;
   }
-  /* line 327, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 328, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .citys__title-descr {
     font-size: 14px;
     line-height: 21px;
   }
-  /* line 330, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 331, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .citys__content-btn {
     margin-top: 180px;
   }
-  /* line 332, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 333, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer {
     position: relative;
     max-height: none;
   }
-  /* line 336, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 337, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__social {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-65%);
   }
-  /* line 341, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 342, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu:before {
     width: 255px;
   }
-  /* line 344, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 345, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-main li {
     padding: 10px 10px;
   }
-  /* line 346, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 347, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-main a {
     font-size: 13px;
     line-height: 14px;
   }
-  /* line 349, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 350, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-other {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 352, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 353, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-other li {
     padding: 10px 20px;
   }
-  /* line 354, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 355, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__menu-other a {
     font-size: 11px;
     line-height: 11   px;
   }
-  /* line 358, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  /* line 359, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
   .footer__app-link {
     position: absolute;
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 366, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .menu__list {
+    width: 70%;
+  }
+}
+
+@media (max-width: 390px) {
+  /* line 369, ../work/htmlCss/ivan/two/bootstrap/src/sass/_media.sass */
+  .menu__list {
+    width: 85%;
   }
 }
 
