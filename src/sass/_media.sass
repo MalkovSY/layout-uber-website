@@ -161,11 +161,31 @@
     position: sticky
     height: 32px
   .burger
-    display: inline-block
+    display: block
     position: absolute
-    right: 11px
-    top: 6px
+    right: 10px
+    top: 50%
+    transform: translateY(-50%)
     cursor: pointer
+    width: 26px
+    span
+      display: block
+      width: 100%
+      height: 2px
+      margin-bottom: 2px
+      background-color: #fff
+      transition: all .5s
+    &_active
+      span
+        margin-bottom: -2px
+        &:nth-child(1)
+          transform: rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: rotate(45deg)
+          
+
   .menu__list
     position: fixed
     flex-direction: column
@@ -316,7 +336,8 @@
     &__social
       position: absolute
       bottom: 0
-      left: 25%
+      left: 50%
+      transform: translateX(-65%)
     &__menu:before
       width: 255px
     &__menu
@@ -337,4 +358,5 @@
       &-link
         position: absolute
         bottom: -30px
-        left: 25%
+        left: 50%
+        transform: translateX(-50%)

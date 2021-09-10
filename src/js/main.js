@@ -7,11 +7,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
   burger.addEventListener('click', () => {
     menu.classList.toggle('menu__list_active');
+    burger.classList.toggle('burger_active');
   });
 
   menuItem.forEach(item => {
     item.addEventListener('click', () => {
       menu.classList.toggle('menu__list_active');
+      burger.classList.toggle('burger_active');
     });
   });
   
